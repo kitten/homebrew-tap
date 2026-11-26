@@ -7,19 +7,19 @@ class Linn < Formula
     depends_on arch: :arm64
     depends_on macos: :sonoma
     on_arm do
-      url "https://github.com/kitten/linn/releases/download/v0.3.1/linn-0.3.1-macos-arm64.tar.gz"
-      sha256 "fa24361acb79db215ba92c997e2215833d18ba99231f0525834a2e150016ade7"
+      url "https://github.com/kitten/linn/releases/download/v0.4.0/linn-0.4.0-macos-arm64.tar.gz"
+      sha256 "f865c6972b38d3efac40bb80433ef23fef578acff53f9d3c42290f4bc640ccb0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kitten/linn/releases/download/v0.3.1/linn-0.3.1-linux-arm64.tar.gz"
-      sha256 "827e1ffaab9238e068bd73e22237999041f87fe87aa8f57b8690dc53ea348765"
+      url "https://github.com/kitten/linn/releases/download/v0.4.0/linn-0.4.0-linux-arm64.tar.gz"
+      sha256 "b5857420add2428a9884abc4adc658e6692310165d0abcca131837059edf6689"
     end
     on_intel do
-      url "https://github.com/kitten/linn/releases/download/v0.3.1/linn-0.3.1-linux-x86_64.tar.gz"
-      sha256 "1572fcddfff31770fb4f3d0b1f7eded8432a6fc0cc443b1c0a1899299497b78b"
+      url "https://github.com/kitten/linn/releases/download/v0.4.0/linn-0.4.0-linux-x86_64.tar.gz"
+      sha256 "f18b910db2adeb9e9b71c777423b7d25a508a1ecc77322bc40e952d8812118e6"
     end
   end
 
