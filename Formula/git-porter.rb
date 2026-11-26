@@ -10,19 +10,19 @@ class GitPorter < Formula
     depends_on arch: :arm64
     depends_on macos: :sonoma
     on_arm do
-      url "https://github.com/kitten/git-porter/releases/download/v0.1.1/git-porter-0.1.1-macos-arm64.tar.gz"
-      sha256 "a2d1c95754a01c8bd6020199562fe4b0e5a571e07d11caaf89cf6f599b611cc2"
+      url "https://github.com/kitten/git-porter/releases/download/v0.1.4/git-porter-0.1.4-macos-arm64.tar.gz"
+      sha256 "55833cff317ce41cbf6d67d8f4b1d4d25f02553016a874cc57daf66f54296667"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kitten/git-porter/releases/download/v0.1.1/git-porter-0.1.1-linux-arm64.tar.gz"
-      sha256 "b0cb5c5cc12c4f796a4b224515912c57915eb4da1ab43e5250af541fd1a49f30"
+      url "https://github.com/kitten/git-porter/releases/download/v0.1.4/git-porter-0.1.4-linux-arm64.tar.gz"
+      sha256 "b7fdf8e28c2ffb26444d0c8214eb00eabb09a104ee402b52c2913590941175d7"
     end
     on_intel do
-      url "https://github.com/kitten/git-porter/releases/download/v0.1.1/git-porter-0.1.1-linux-x86_64.tar.gz"
-      sha256 "c6bb73b1e05166f59f9a8552dcae826f3e5b1165a7291e00a6d28529cccce0a9"
+      url "https://github.com/kitten/git-porter/releases/download/v0.1.4/git-porter-0.1.4-linux-x86_64.tar.gz"
+      sha256 "e3ac82ae29b2703a1c3da752217304f559d07fdad1925ff24917622858df367f"
     end
   end
 
